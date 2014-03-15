@@ -10,7 +10,7 @@ def act():#context):
     #print(a)
     #if a is None:
     a = bpy.data.armatures['Armature']    #TODO better use 0 as index?
-    remove_pattern = "root_"
+    remove_pattern = "prop-"
     if not a:
         print("Armature still not found!")
         return False
@@ -20,7 +20,7 @@ def act():#context):
         if b.name.find(remove_pattern) != -1:
             print('found prepended ' + remove_pattern)
             b.name = b.name.replace(remove_pattern, "")
-        b.name = b.name.lower()
+        #b.name = b.name.lower()
         if (old_name != b.name):
             print('bone renamed to:' + b.name)
         else:
