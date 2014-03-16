@@ -6,6 +6,7 @@
 	  <animations>
 		<animation file="biped/dude.dae" name="Idle" speed="100"/>
                 <animation file="biped/inf_hoplite_walk.psa" name="Walk" speed="120"/>
+                <animation file="biped/inf_pack_walk.dae" name="Run" speed="120"/>
 	  </animations>
 	  <mesh>skeletal/dude.dae</mesh>
 	  <props>
