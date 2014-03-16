@@ -199,7 +199,7 @@
 							<!-- only hierarchy difference to the standard_skeleton is that the clavicles are not below the head node. -->
 							<bone name="root_L_Clavicle"><target>l_clavicle</target>
 								<bone name="root_L_UpperArm"><target>l_upperarm</target>
-									<bone name="root_L_ForeArm"><target>l_forearm</target>
+									<bone name="root_L_Forearm"><target>l_forearm</target>
 										<bone name="root_L_Hand"><target>l_hand</target>
 											<bone name="root_L_Finger0">
 												<bone name="root_L_Finger0nub"/>
@@ -210,7 +210,7 @@
 							</bone>
 							<bone name="root_R_Clavicle"><target>r_clavicle</target>
 								<bone name="root_R_UpperArm"><target>r_upperarm</target>
-									<bone name="root_R_ForeArm"><target>r_forearm</target>
+									<bone name="root_R_Forearm"><target>r_forearm</target>
 										<bone name="root_R_Hand"><target>r_hand</target>
 											<bone name="root_DUMMY_r_finger0">
 												<bone name="root_DUMMY_r_finger0nub"/>
@@ -243,4 +243,5 @@
 			</bone>
 		</bone>
 	</skeleton>
+
 </skeletons>
