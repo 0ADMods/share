@@ -1,0 +1,31 @@
+NOTES TO THE FOLDER STRUCTURE (or lack thereof)
+=====
+
+The filestructure has no parent folders to each object.
+For example windmill.3dobj and its textures are all in the highest layer.
+
+
+
+The reasons for that are:
+-------------------------
+
+* Reusing textures is easier (imagine you wish to reuse a texture which is in windmill folder which could be moved in the meantime, .. or even worse),
+
+* Blender features filtering, so that all maybe disturbing images if you look for 3dobjects only can be filtered out.
+
+* Encourage to give your 3D model telling filenames, consistent through all phy. (so a podium is called "podium.<3d>" and not "my_first_object_1.<3d>" and a preview image for it is not called "preview.jpg" only but "podium--preview_with_ink.jpg" or similarly named to make it appear next to "podium.obj"  if sorted by alphabetical order and to not have to look at each image in a viewer only to know what is the difference of this preview image to all the other podium--preview images if any others exist).
+
+* Reuse of 3D models within other models as a reference (so without having to copy it) is way easier without any subfolders too. Just image you use a 3D object "tree.obj" in two other 3D objects/scenes. Now in which subfolder will it be. Finding this out might proof being a big challenge.
+
+* Knowing which 3D models already exist: Imaginge checking if we have once ago already created a 3D model for a candlelight. So where would you look? In all the castles's and fortification's subfolders we possibly created? 
+Isn't it easier to know all objects are in one single folder, then simply type "c" to jump to the folder's entries starting with "c", seek for candle or related and/or have a look at the preview images?
+
+
+* Blender is capable to pack and unpack all textures. That means the textures can still be transported/included with the 3D model pretty quickly.
+
+* Looking for textures is easy too. Want a metal texture? just throw up the folder jump to metal via "m" and look at the preview images or the hopefully descriptive texture file names. (beware not to change texture filenames if they are used in a 3D model). It's better to rename those from within the 3D tools (e.g. blender) when the model is loaded there (to make the 3D program aware of the changed filelink too).
+
+
+It might feel a bit strange at first. But you get used to it pretty quick.
+
+
