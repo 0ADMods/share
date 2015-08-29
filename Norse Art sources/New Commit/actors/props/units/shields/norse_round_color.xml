@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="structural/norse_snekkja.png" name="baseTex"/>
+        <texture file="structural/norse_snekkja_norm.png" name="normTex"/>
+        <texture file="structural/norse_snekkja_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="shield-E">
+      <mesh>props/shield_norse_round_a.dae</mesh>
+    </variant>
+    <variant frequency="1" name="shield-G">
+      <mesh>props/shield_norse_round_b.dae</mesh>
+    </variant>
+    <variant frequency="1" name="shield-K">
+      <mesh>props/shield_norse_round_c.dae</mesh>
+    </variant>
+    <variant frequency="1" name="shield-M">
+      <mesh>props/shield_norse_round_d.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="color-a">
+      <color>255 255 255</color>
+    </variant>
+    <variant frequency="1" name="color-b">
+      <color>128 64 64</color>
+    </variant>
+    <variant frequency="1" name="color-c">
+      <color>0 128 64</color>
+    </variant>
+    <variant frequency="1" name="color-d">
+      <color>0 128 192</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>
